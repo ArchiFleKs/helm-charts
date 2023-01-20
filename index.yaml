@@ -4345,6 +4345,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.7.0
+    created: "2023-01-20T10:04:01.322378399Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: dfd437fa16d18cb0c3dfd8e534fa03a9e9a8f0bb8cc9857e543ecac587adbe2b
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/kube-state-metrics-4.29.0/kube-state-metrics-4.29.0.tgz
+    version: 4.29.0
+  - apiVersion: v2
+    appVersion: 2.7.0
     created: "2023-01-11T20:18:44.069419102Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 888d55897830b638e9baad167417eab48f797e8eb14fa890c9ea235dadeedb0b
@@ -26765,6 +26790,38 @@ entries:
         - name: desaintmartin
           email: cedric@desaintmartin.fr
     apiVersion: v2
+    appVersion: 0.62.0
+    created: "2023-01-20T10:04:01.518128758Z"
+    description: 'A Helm chart that collects custom resource definitions (CRDs) from
+      the Prometheus Operator, allowing for seamless integration with GitOps tools '
+    digest: 9489b01e0ac5b5c8081657546bb1acee4dbbeec5f25d0f6b8ac1ba7b5ae39698
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - prometheus
+    - crds
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: dacamposol@gmail.com
+      name: dacamposol
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: prometheus-operator-crds
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-operator-crds-1.0.0/prometheus-operator-crds-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      artifacthub.io/maintainers: |
+        - name: dacamposol
+          email: dacamposol@gmail.com
+        - name: desaintmartin
+          email: cedric@desaintmartin.fr
+    apiVersion: v2
     appVersion: 0.61.1
     created: "2023-01-11T20:18:48.448375387Z"
     description: 'A Helm chart that collects custom resource definitions (CRDs) from
@@ -29580,4 +29637,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-17T11:45:11.656497691Z"
+generated: "2023-01-20T10:04:01.519655846Z"
