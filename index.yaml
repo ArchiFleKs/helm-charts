@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.28.1
+    created: "2025-04-21T15:31:51.527789199Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: f75f4180c95c8b2e1e052f5cc42ed08e7bc2e7fca320e07164fb9ff0d03bbaf2
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/alertmanager-1.16.2/alertmanager-1.16.2.tgz
+    version: 1.16.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.28.1
     created: "2025-04-16T03:33:49.150111087Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -15752,6 +15782,25 @@ entries:
   prometheus-mysql-exporter:
   - apiVersion: v1
     appVersion: v0.17.2
+    created: "2025-04-21T15:31:51.652744593Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: e17000c199a2fe1ec49529c9fffb2040747668bd30a2909d2f6883de9e48fe80
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+      url: https://github.com/juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-mysql-exporter-2.10.0/prometheus-mysql-exporter-2.10.0.tgz
+    version: 2.10.0
+  - apiVersion: v1
+    appVersion: v0.17.2
     created: "2025-04-16T03:33:53.323588731Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
     digest: 52dd263ffb92a87381e7a6057dff6fc7793fb7dbb1c64b85fd82080a23a2db95
@@ -28355,6 +28404,33 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: v0.17.0
+    created: "2025-04-21T15:31:51.764992776Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 1f415ad285badebab71f091198bbe64d1db6fc37006028986ad559951082b048
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-postgres-exporter-6.10.1/prometheus-postgres-exporter-6.10.1.tgz
+    version: 6.10.1
+  - apiVersion: v2
+    appVersion: v0.17.0
     created: "2025-04-16T03:33:55.246708676Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: 5ba5f1da2d489cca5702ac88177feb6c95acc63b81647acaadc29db6139d9e40
@@ -31488,4 +31564,4 @@ entries:
     urls:
     - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-04-21T03:31:47.153716629Z"
+generated: "2025-04-21T15:31:51.766517105Z"
