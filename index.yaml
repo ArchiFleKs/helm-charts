@@ -38599,6 +38599,23 @@ entries:
   prometheus-to-sd:
   - apiVersion: v1
     appVersion: 0.5.2
+    created: "2025-06-28T21:32:06.34463791Z"
+    description: Scrape metrics stored in prometheus format and push them to the Stackdriver
+    digest: f04bad1fc7c673ecbdac4145ad019745c471f3ab82673ee29b9d3c44104da5d3
+    home: https://github.com/GoogleCloudPlatform/k8s-stackdriver/tree/master/prometheus-to-sd
+    keywords:
+    - prometheus
+    - stackdriver
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+      url: https://github.com/acondrat
+    name: prometheus-to-sd
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-to-sd-0.5.0/prometheus-to-sd-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v1
+    appVersion: 0.5.2
     created: "2023-01-11T20:18:50.547301016Z"
     description: Scrape metrics stored in prometheus format and push them to the Stackdriver
     digest: 07e6181af0ca4752b509b28d385378056a6217357e1494272452cdc31f620e09
@@ -38875,4 +38892,4 @@ entries:
     urls:
     - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-06-28T09:32:16.297823626Z"
+generated: "2025-06-28T21:32:06.345992882Z"
