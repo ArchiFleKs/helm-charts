@@ -23833,6 +23833,25 @@ entries:
   prometheus-mysql-exporter:
   - apiVersion: v1
     appVersion: v0.17.2
+    created: "2025-07-29T09:31:52.084124806Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: 02190227c72b4c9017621fbdcd183fdc1b6ddebeaf42b1c02dae39812abeb8c1
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+      url: https://github.com/juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-mysql-exporter-2.11.0/prometheus-mysql-exporter-2.11.0.tgz
+    version: 2.11.0
+  - apiVersion: v1
+    appVersion: v0.17.2
     created: "2025-07-21T03:31:43.287196921Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
     digest: 5fa42f5a6af0beaec94c7e553955119bd45ab64124834a9e3a7c31319e1610af
@@ -38143,6 +38162,33 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: v0.17.1
+    created: "2025-07-29T09:31:52.206996314Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 6bf2528ddd033d645af44354a0ffd8f19e9153e67fe62327e8cfb6906b600418
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-postgres-exporter-7.1.1/prometheus-postgres-exporter-7.1.1.tgz
+    version: 7.1.1
+  - apiVersion: v2
+    appVersion: v0.17.1
     created: "2025-07-19T23:27:03.80401303Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: c79d7412c8a1e0db1b3cfa3f561eeee0e8473f0ccdbdd26f3b908acee847a61d
@@ -42312,4 +42358,4 @@ entries:
     urls:
     - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-07-28T21:32:18.627841822Z"
+generated: "2025-07-29T09:31:52.209590051Z"
