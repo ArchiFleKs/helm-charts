@@ -27239,6 +27239,38 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.11.0
+    created: "2025-10-11T15:31:50.234058011Z"
+    description: Druid exporter to monitor druid metrics with Prometheus
+    digest: b76d29da5f1009d035ef76c4a8395a65a0d1bd21b509043ed664e4cd94d18922
+    home: https://github.com/opstree/druid-exporter
+    icon: https://github.com/opstree/druid-exporter/blob/master/static/druid-exporter-logo.svg
+    keywords:
+    - kubernetes
+    - apache
+    - druid
+    - exporter
+    - prometheus
+    - grafana
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: abhishekbhardwaj510@gmail.com
+      name: iamabhishek-dubey
+      url: https://github.com/iamabhishek-dubey
+    name: prometheus-druid-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-druid-exporter
+    - https://github.com/opstree/druid-exporter
+    type: application
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-druid-exporter-1.2.0/prometheus-druid-exporter-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-druid-exporter
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.11.0
     created: "2025-07-19T19:06:38.278167217Z"
     description: Druid exporter to monitor druid metrics with Prometheus
     digest: 67036a34fb28e7fa13ce61491ab7b96b05aa1cb79657da878ebd00fec3e164a8
@@ -48037,6 +48069,27 @@ entries:
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: v0.18.0
+    created: "2025-10-11T15:31:50.39335402Z"
+    description: Stackdriver exporter for Prometheus
+    digest: 9b33937c6c287c015b9a1644a219126f823baa8eba3997d4f7c2b63d1ed59284
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: pahli88@googlemail.com
+      name: rpahli
+      url: https://github.com/rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/stackdriver_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver-exporter
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-stackdriver-exporter-4.12.1/prometheus-stackdriver-exporter-4.12.1.tgz
+    version: 4.12.1
+  - apiVersion: v1
+    appVersion: v0.18.0
     created: "2025-09-29T09:31:55.166434747Z"
     description: Stackdriver exporter for Prometheus
     digest: 7f30107a17e3776201a2a37c26a27d808834a84deb80518af68904e454117264
@@ -48965,4 +49018,4 @@ entries:
     urls:
     - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-10-10T21:32:10.603792822Z"
+generated: "2025-10-11T15:31:50.397346297Z"
