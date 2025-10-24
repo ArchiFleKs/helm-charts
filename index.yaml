@@ -23418,6 +23418,33 @@ entries:
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.12.0
+    created: "2025-10-24T03:32:01.028775936Z"
+    description: A Helm chart for k8s prometheus adapter
+    digest: 999818eea91a28b9d9fd629c43f016fa66abd1ea7f0ab4b30498fb2b65fd4c4b
+    home: https://github.com/kubernetes-sigs/prometheus-adapter
+    keywords:
+    - hpa
+    - metrics
+    - prometheus
+    - adapter
+    maintainers:
+    - email: mattias.gees@jetstack.io
+      name: mattiasgees
+      url: https://github.com/mattiasgees
+    - name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+      url: https://github.com/hectorj2f
+    name: prometheus-adapter
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/kubernetes-sigs/prometheus-adapter
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-adapter-5.2.0/prometheus-adapter-5.2.0.tgz
+    version: 5.2.0
+  - apiVersion: v1
+    appVersion: v0.12.0
     created: "2025-08-11T21:31:48.710350361Z"
     description: A Helm chart for k8s prometheus adapter
     digest: 1368522d379772c72569043a4d26ea11647ec95e3cbe84a491b7d69b4091f641
@@ -29495,6 +29522,30 @@ entries:
     - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-modbus-exporter-0.1.3/prometheus-modbus-exporter-0.1.3.tgz
     version: 0.1.3
   prometheus-mongodb-exporter:
+  - apiVersion: v2
+    appVersion: 0.47.1
+    created: "2025-10-24T03:32:01.187802749Z"
+    description: A Prometheus exporter for MongoDB metrics
+    digest: 7be059c2622b5d85d98846fb70a540a86fbed8697d061b92812c9593d09dc5f2
+    home: https://github.com/percona/mongodb_exporter
+    keywords:
+    - exporter
+    - metrics
+    - mongodb
+    - prometheus
+    maintainers:
+    - email: ssheehy@firescope.com
+      name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-mongodb-exporter
+    sources:
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-mongodb-exporter-3.15.0/prometheus-mongodb-exporter-3.15.0.tgz
+    version: 3.15.0
   - apiVersion: v2
     appVersion: 0.47.1
     created: "2025-09-05T09:31:56.801960529Z"
@@ -50103,4 +50154,4 @@ entries:
     urls:
     - https://github.com/ArchiFleKs/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-10-23T21:31:55.824560269Z"
+generated: "2025-10-24T03:32:01.189763676Z"
